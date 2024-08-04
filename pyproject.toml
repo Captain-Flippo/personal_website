@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "personal-website"
+version = "0.1.0"
+description = ""
+authors = ["Captain-Flippo <captain_flippo@gmx.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.7"
+omegaconf = "^2.3.0"
+django-markdownx = "^4.0.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

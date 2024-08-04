@@ -1,0 +1,14 @@
+# config files
+.config.yaml
+
+# cache files
+__pycache__/
+
+# vscode config
+.vscode/
+
+# virtual env
+.venv/
+
+# local sqlite db
+db.sqlite3
