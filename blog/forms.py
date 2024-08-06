@@ -1,5 +1,4 @@
 from django import forms
-from markdownx.fields import MarkdownxFormField
 
 class CommentForm(forms.Form):
     author = forms.CharField(
@@ -13,7 +12,3 @@ class CommentForm(forms.Form):
             attrs={"class": "form-control", "placeholder": "Leave a comment!"}
         )
     )
-    
-
-class MyForm(forms.Form):
-    myfield = MarkdownxFormField()
