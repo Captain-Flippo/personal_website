@@ -46,3 +46,6 @@ def blog_detail(request, pk):
         "form": CommentForm(),
     }
     return render(request, "blog/detail.html", context)
+
+def test_view(request):
+    return render(request, 'blog/test-markdown.html')
